@@ -1,2 +1,60 @@
-# Book-Page-Capture-Tool
-Book Page Capture Tool
+# SeeBook：ZIP 圖像書閱讀器
+
+SeeBook 是一款桌面應用程式，可直接讀取 `.zip` 檔中的圖片（書頁），提供流暢的頁面切換、局部放大與全螢幕檢視功能。適合用於閱讀掃描書籍、漫畫、講義等內容。
+
+---
+
+## 📦 主要特色
+
+- ✅ 支援讀取 `.zip` 檔案內的圖片（JPG、PNG）
+- ✅ 自動按檔名排序圖片順序
+- ✅ 支援滑鼠滾輪與鍵盤翻頁
+- ✅ 點擊放大 + 全螢幕瀏覽模式
+- ✅ 簡潔現代的 UI，無需相機與掃描器
+
+---
+##網頁直接打開用瀏覽器跑就可以
+
+## 🖥️ 使用方式
+
+1. 安裝 Python 3.10 或以上版本
+2. 安裝所需套件：
+
+   ```bash
+   pip install -r requirements.txt
+執行主程式：
+
+python book_photo_app.py
+使用界面選擇 ZIP 檔，即可開始閱讀！
+
+📁 ZIP 檔規範
+圖片應位於 ZIP 根目錄下
+
+建議檔名以數字/順序命名（例如：001.jpg, 002.jpg）
+
+⌨️ 操作說明
+操作	描述
+滾輪/左右鍵	翻頁
+滑鼠左鍵	圖片局部放大
+滑鼠右鍵	切換全螢幕檢視
+Esc	離開全螢幕
+
+🧩 使用模組
+以下模組皆可透過 pip 安裝：
+
+模組	說明
+PyQt5	圖形介面
+zipfile	解壓縮內建模組
+os	路徑處理（內建）
+sys	系統整合（內建）
+PIL (Pillow)	圖像處理
+
+建立 requirements.txt：
+
+PyQt5>=5.15
+Pillow>=10.0
+📷 預覽畫面
+🚧 此處可加入 screenshot.png
+
+📜 授權
+MIT License — 歡迎自由修改、散布與使用
