@@ -49,12 +49,10 @@ os	路徑處理（內建）
 sys	系統整合（內建）
 PIL (Pillow)	圖像處理
 
-建立 requirements.txt：
+##建立 requirements.txt：
 
-PyQt5>=5.15
-Pillow>=10.0
-📷 預覽畫面
-🚧 此處可加入 screenshot.png
+  PyQt5>=5.15
+  Pillow>=10.0
 
 📜 授權
 MIT License — 歡迎自由修改、散布與使用
